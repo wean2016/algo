@@ -9,7 +9,7 @@ package six;
  */
 public class SinglyLinkedList {
 
-    private Node head = null;
+    protected Node head = null;
 
     public Node findByValue(int value){
         Node p = head;
@@ -126,8 +126,8 @@ public class SinglyLinkedList {
     }
 
     public static class Node{
-        private int data;
-        private Node next;
+        protected int data;
+        protected Node next;
 
         public Node(int data, Node next) {
             this.data = data;
